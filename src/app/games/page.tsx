@@ -1,0 +1,1 @@
+﻿import {CatalogPage} from "@/components/storefront";export const metadata={title:"Games"};export default function Games(){return <CatalogPage/>}

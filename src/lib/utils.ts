@@ -1,0 +1,1 @@
+﻿import {storeConfig} from "@/config/store"; export const money=(amount:number)=>new Intl.NumberFormat(storeConfig.locale,{style:"currency",currency:storeConfig.currency}).format(amount);

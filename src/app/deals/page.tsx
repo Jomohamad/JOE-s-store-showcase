@@ -1,0 +1,1 @@
+﻿import { DealsPage } from "@/components/storefront"; export default function Page(){return <DealsPage/>}

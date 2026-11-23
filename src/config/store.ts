@@ -1,0 +1,1 @@
+﻿export const storeConfig = { name: "JOE Store", description: "Instant game credits, currency, and digital top-ups built for gamers.", currency: "USD", locale: "en-US", supportEmail: "support@example.com" } as const;

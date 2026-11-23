@@ -1,0 +1,1 @@
+﻿"use client"; import { createClient } from "@/lib/supabase/client"; export function SignOutButton(){return <button onClick={async()=>{const supabase=createClient();await supabase.auth.signOut();window.location.assign("/")}} className="outline-button px-3 py-2 text-xs">Sign out</button>}
